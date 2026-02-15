@@ -1,0 +1,27 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Auth / state (never commit)
+auth.json
+storageState.json
+.env
+
+# Allure output (generated)
+allure-results/
+allure-report/
+auth.json
+storageState.json
+.env
+rm -rf .git
+git init -b main
+git add .
+git commit -m "Initial portfolio version of Playwright CRM framework"
+
+git remote add origin https://github.com/Getpriyanka-20/playwright-crm-framework.git
+
+git push -u origin main
