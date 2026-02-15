@@ -1,1 +1,1 @@
-# NinzaCRM
+# Playwright-CRM-Automation-Framework
